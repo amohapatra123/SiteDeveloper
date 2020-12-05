@@ -16,18 +16,23 @@ body {
 }
 
 #hero-spot {
-  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0.9;
+
   text-align: center;
   margin-top: 7rem;
   padding: 2rem;
   height: 500px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
   font-family: "Lobster", cursive;
 }
-
+#ban {
+  border-radius: 1rem;
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
 #vision {
   margin-top: 3rem;
   background-color: white;
