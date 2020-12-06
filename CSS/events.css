@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+main {
+  margin-top: 6rem;
+}
+main h2 {
+  display: flex;
+  justify-content: center;
+  color: #e8e8e8;
+  font-family: "Oleo Script", cursive;
+}
+.event {
+  color: #e8e8e8;
+  font-family: "Oleo Script", cursive;
+  font-size: x-large;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
