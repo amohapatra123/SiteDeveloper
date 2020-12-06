@@ -15,11 +15,15 @@ main h2 {
 }
 .sector {
   background-color: #f05454;
+  border-radius: 50%;
   height: 200px;
   width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.sector:hover {
+  transform: scale(1.2);
 }
 #sectors a {
   text-decoration: none;
