@@ -139,3 +139,18 @@ main h2 {
     opacity: 0;
   }
 }
+
+#social-media {
+  background: linear-gradient(#222831, #e8e8e8);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+#social-media h2 {
+  color: #e8e8e8;
+}
+.social-icon {
+  width: 4rem;
+
+  margin: 1rem;
+}
