@@ -44,3 +44,45 @@ body {
   border-radius: 1rem;
   box-shadow: 0 12px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
+#foot {
+  margin-top: 1rem;
+  background-color: #30475e;
+  padding: 2rem;
+}
+#imp-links {
+  display: flex;
+  justify-content: center;
+}
+#imp-links ul {
+  list-style-type: none;
+  color: #30475e;
+  font-size: xx-large;
+  text-align: left;
+  font-family: "Oleo Script", cursive;
+}
+#imp-links ul li a {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+#donate-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#donate-inner {
+  background-color: #f05454;
+  color: #e8e8e8;
+  text-align: center;
+  font-family: "Oleo Script", cursive;
+  font-size: 2rem;
+}
+#donate-inner:hover {
+  background-color: #e8e8e8;
+  color: #f05454;
+}
+#copy {
+  color: #e8e8e8;
+  font-family: "Oleo Script", cursive;
+  display: flex;
+  justify-content: center;
+}
