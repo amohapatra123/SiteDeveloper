@@ -1,20 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 body {
-  background-color: cadetblue;
+  background-color: #222831;
 }
 
 #navbar {
   z-index: 10000;
-  background-color: wheat;
-  box-shadow: 0 7px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  background-color: #30475e;
+  box-shadow: 0 7px 4px rgba(35, 34, 34, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+#navbar ul li a {
+  color: #e8e8e8;
+  font-family: "Oleo Script", cursive;
 }
 #navbar ul li a:hover {
-  background-color: chocolate;
+  background-color: #f05454;
   color: white;
   transition: 0.8s;
 }
-
+#donate {
+  background-color: #f05454;
+}
+#donate:hover {
+  background-color: white !important;
+  color: #f05454 !important;
+}
 #hero-spot {
   opacity: 0.9;
 
