@@ -10,6 +10,24 @@ main h2 {
   font-size: 3rem;
   color: #e8e8e8;
 }
+#sectors {
+  padding: 1rem;
+}
+.sector {
+  background-color: #f05454;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sectors a {
+  text-decoration: none;
+}
+.sector h4 {
+  color: #e8e8e8;
+  font-family: "Oleo Script", cursive;
+}
 #map {
   padding: 2rem;
   width: 96%;
