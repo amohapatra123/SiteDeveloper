@@ -1,17 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+
 body {
   background-color: #222831;
+  overflow-x: hidden;
 }
 
 #navbar {
   z-index: 10000;
-  background-color: #30475e;
+  background-color: #e3e3e3;
   box-shadow: 0 7px 4px rgba(35, 34, 34, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 #navbar ul li a {
-  color: #e8e8e8;
+  color: black;
   font-family: "Oleo Script", cursive;
 }
 #navbar ul li a:hover {
@@ -21,6 +23,7 @@ body {
 }
 #donate {
   background-color: #f05454;
+  color: #e3e3e3 !important;
 }
 #donate:hover {
   background-color: white !important;
@@ -28,11 +31,13 @@ body {
 }
 #hero-spot {
   opacity: 0.9;
-
+  background: linear-gradient(#e3e3e34a, #222831);
+  margin-left: -20px;
+  margin-right: -20px;
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 5rem;
   padding: 2rem;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
