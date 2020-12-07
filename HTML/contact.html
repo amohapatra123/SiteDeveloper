@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/contact.css" />
   </head>
   <body>
     <!--Navbar-->
@@ -61,10 +62,68 @@
         </div>
       </nav>
     </header>
-
-    <br />
-    <br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <main>
+      <div class="container">
+        <div class="row" id="main-form">
+          <div class="col-12 col-md-6" id="form">
+            <h2>Contact Us</h2>
+            <input
+              type="text"
+              class="form-control mt-3"
+              name="name"
+              id="name"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              class="form-control mt-3"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              class="form-control mt-3"
+              name="contact"
+              id="contact"
+              placeholder="Contact Number"
+            />
+            <textarea
+              type="textarea"
+              class="form-control mt-3"
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+            <div class="col-12 col-md-8 offset-md-2">
+              <a class="nav-link mt-3" href="contact.html"><h5>Donate</h5></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="foot">
+      <div class="row">
+        <div class="col-12 col-md-6" id="imp-links">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="healthcare.html">Healthcare</a></li>
+            <li><a href="employment.html">Employment</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6" id="donate-button">
+          <div class="col-12 col-md-6">
+            <a class="nav-link" href="donate.html" id="donate-inner"
+              ><h5>Donate</h5></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row" id="copy">
+        <p>Copyright2020 &copy;UNIFIED HEDGE</p>
+      </div>
+    </footer>
   </body>
 </html>
 <script
