@@ -68,6 +68,7 @@ body {
 #imp-links ul li a {
   text-decoration: none;
   color: #e8e8e8;
+  font-family: "Oleo Script", cursive;
 }
 #donate-button {
   display: flex;
@@ -87,7 +88,10 @@ body {
 }
 #copy {
   color: #e8e8e8;
-  font-family: "Oleo Script", cursive;
+  font-family: "Oleo Script", cursive !important;
   display: flex;
   justify-content: center;
+}
+#copy p {
+  font-family: "Oleo Script", cursive !important;
 }
