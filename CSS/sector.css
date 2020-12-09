@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+#vision {
+  margin-top: 5rem;
+}
+#starting {
+  color: #e3e3e3;
+  font-family: "Oleo Script", cursive;
+  text-align: center;
+}
+#vision p {
+  color: #e3e3e3;
+  font-family: "Oleo Script", cursive;
+  font-size: xx-large;
+  text-align: center;
+}
+#vision ul li {
+  color: #e3e3e3;
+  font-family: "Oleo Script", cursive;
+  font-size: x-large;
+}
+#purpose {
+  margin-top: 3rem;
+  color: #e3e3e3;
+  font-family: "Oleo Script", cursive;
+}
+#purpose h2 {
+  text-align: center;
+}
+#purpose p {
+  text-align: center;
+  font-size: xx-large;
+}
+#purpose ul li {
+  font-size: x-large;
+}
