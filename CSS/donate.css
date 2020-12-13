@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-form {
+  display: flex;
+  justify-content: center;
+}
+#form {
+  margin-top: 10rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(228, 221, 221);
+  font-family: "Oleo Script", cursive;
+}
+#form a {
+  background-color: #222831;
+  color: #e3e3e3;
+}

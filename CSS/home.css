@@ -10,6 +10,18 @@ main h2 {
   font-size: 3rem;
   color: #e8e8e8;
 }
+#vision .row .col-12 p {
+  text-align: center;
+  font-family: "Oleo Script", cursive;
+  font-size: xx-large;
+  color: #e3e3e3;
+}
+#vision #points p {
+  text-align: center;
+  font-family: "Oleo Script", cursive;
+  font-size: xx-large;
+  color: #e3e3e3;
+}
 #sectors {
   padding: 1rem;
 }
