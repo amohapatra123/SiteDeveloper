@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neuton&display=swap");
 main {
   margin-top: 10rem;
 }
@@ -10,17 +11,39 @@ main h2 {
   font-size: 3rem;
   color: #e8e8e8;
 }
-#vision .row .col-12 p {
-  text-align: center;
-  font-family: "Oleo Script", cursive;
-  font-size: xx-large;
-  color: #e3e3e3;
+#overview {
+  background-color: #e3e3e3;
+  padding: 2rem;
 }
-#vision #points p {
+#overview h2 {
+  color: black !important;
+}
+#overview p {
+  color: black;
+  text-align: center;
+  font-family: "Neuton", serif;
+  font-size: 2rem;
+}
+#vision {
+  background-color: #e3e3e3;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+#vision h2 {
+  color: black !important;
+}
+#vision .row .col-12 p {
+  color: black;
   text-align: center;
   font-family: "Oleo Script", cursive;
-  font-size: xx-large;
-  color: #e3e3e3;
+  font-size: 2rem;
+}
+
+#vision #points p {
+  color: black;
+  text-align: center;
+  font-family: "Neuton", serif;
+  font-size: 2rem;
 }
 #sectors {
   padding: 1rem;
