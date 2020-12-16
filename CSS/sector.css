@@ -1,34 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neuton&display=swap");
 #vision {
   margin-top: 5rem;
+  background-color: #e3e3e3;
+  padding: 3rem;
 }
 #starting {
-  color: #e3e3e3;
+  color: black;
   font-family: "Oleo Script", cursive;
   text-align: center;
+  font-size: 3rem;
 }
 #vision p {
-  color: #e3e3e3;
+  color: black;
   font-family: "Oleo Script", cursive;
   font-size: xx-large;
   text-align: center;
 }
 #vision ul li {
-  color: #e3e3e3;
-  font-family: "Oleo Script", cursive;
+  color: black;
+  font-family: "Neuton", serif !important;
   font-size: x-large;
 }
 #purpose {
   margin-top: 3rem;
   color: #e3e3e3;
-  font-family: "Oleo Script", cursive;
 }
 #purpose h2 {
   text-align: center;
+  font-size: 3rem;
+  font-family: "Oleo Script", cursive;
+}
+#purpose #quote {
+  font-family: "Oleo Script", cursive !important;
 }
 #purpose p {
   text-align: center;
   font-size: xx-large;
+  font-family: "Neuton", serif !important;
 }
 #purpose ul li {
   font-size: x-large;

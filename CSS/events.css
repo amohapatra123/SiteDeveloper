@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Neuton&display=swap");
 main {
   margin-top: 6rem;
 }
@@ -11,7 +11,8 @@ main h2 {
 }
 .event {
   color: #e8e8e8;
-  font-family: "Oleo Script", cursive;
+  font-family: "Neuton", serif;
+
   font-size: x-large;
   text-align: center;
   display: flex;
@@ -22,4 +23,7 @@ main h2 {
   padding: 1rem;
   display: flex;
   justify-content: center;
+}
+.hightlight {
+  font-family: "Oleo Script", cursive !important;
 }
