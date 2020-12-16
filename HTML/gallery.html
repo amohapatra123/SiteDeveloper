@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/gallery.css" />
   </head>
   <body>
     <!--Navbar-->
@@ -42,6 +43,24 @@
             <li class="nav-item">
               <a class="nav-link" href="./about.html"><h5>About Us</h5> </a>
             </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Sectors
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./education.html">Education</a>
+                <a class="dropdown-item" href="./healthcare.html">Healthcare</a>
+                <a class="dropdown-item" href="./employment.html">Employment</a>
+              </div>
+            </li>
 
             <li class="nav-item">
               <a class="nav-link" href="./events.html"><h5>Events</h5></a>
@@ -62,9 +81,151 @@
       </nav>
     </header>
 
-    <br />
-    <br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <main>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 col-md-6">
+            <video controls height="300px" class="col-12">
+              <source src="../Assets/v3.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-12 col-md-6" id="text">
+            <h2>From the Founder's Desk</h2>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-md-6" id="text">
+            <h2>From the Cheif Manager's Desk</h2>
+          </div>
+          <div class="col-12 col-md-6">
+            <video controls height="300px" class="col-12">
+              <source src="../Assets/v1.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-md-6">
+            <video controls height="300px" class="col-12">
+              <source src="../Assets/v2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="col-12 col-md-6" id="text">
+            <h2>What Student's say about us</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" id="gallery">
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/o1.jpg"
+              alt="office1"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/o2.jpg"
+              alt="office2"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/o3.jpg"
+              alt="office3"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/w1.jfif"
+              alt="workspace1"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/w2.jpg"
+              alt="workspace2"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/w3.jpeg"
+              alt="workspace3"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/s1.jpg"
+              alt="seminar1"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/s2.jpg"
+              alt="seminar2"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              width="100%"
+              height="300px"
+              class="mt-2"
+              src="../Assets/gallery/s3.jpg"
+              alt="seminar3"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="foot">
+      <div class="row">
+        <div class="col-12 col-md-6" id="imp-links">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="healthcare.html">Healthcare</a></li>
+            <li><a href="employment.html">Employment</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6" id="donate-button">
+          <div class="col-12 col-md-6">
+            <a class="nav-link" href="donate.html" id="donate-inner"
+              ><h5>Donate</h5></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row" id="copy">
+        <p>Copyright2020 &copy;UNIFIED HEDGE</p>
+      </div>
+    </footer>
   </body>
 </html>
 <script

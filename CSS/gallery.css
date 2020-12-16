@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+video {
+  margin-top: 5rem;
+}
+video source {
+  width: 100%;
+}
+#gallery {
+  margin-top: 7rem;
+}
+h2 {
+  color: #e3e3e3;
+  text-align: center;
+  font-family: "Oleo Script", cursive;
+}
+#text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
